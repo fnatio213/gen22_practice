@@ -1,0 +1,41 @@
+*{
+	margin: 0;
+	padding: 0;
+}
+body{
+	font-family: Ariel, Helevetica, sans-serif;
+}
+.btn {
+	border-radius: 20%;
+}
+.form-control{
+	border-radius: 20%;
+}
+.jumbotron{
+
+}
+.jumbotron{
+	background-color: #12475f;
+	color: #fff;
+	line-height: 1.6;
+	text-align: center;
+}
+.carousel-item{
+	max-width: 960;
+	margin: auto;
+	padding: 0 360px;
+}
+.navbar{
+	height: 150px;
+
+}
+.navbar {
+	font-size: 15px;
+	
+	position: relative;
+	animation: heading;
+}
+@keyframes heading{
+	0%{top: -50px;}
+	100%{top: 200px;}
+}

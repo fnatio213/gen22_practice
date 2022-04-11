@@ -1,0 +1,36 @@
+.navbar-home{
+    border: none;
+    background-color: #fff;
+    border-radius: 0px;
+    margin-top: 0px;
+}
+.navbar-home .navbar-nav > li > a{
+    color: black;
+}
+
+.one{
+width: 20%;
+height: 20px;
+}
+.carousel-content{
+    height: 100%;
+    width: 100%;
+}
+.carousel-inner > .item > img, .carousel-inner > .item> a > img{
+    width: 100%;
+    height: 20%;
+}
+.plans{
+    margin-top: 3rem;
+    margin-bottom: 2rem;
+}
+.Header{
+    text-align: center;
+    text-decoration: blink;
+    font-style: cursive;
+}
+.footer{
+    background-color: deepblue;
+    padding: 2rem 0;
+    color: #fff;
+}

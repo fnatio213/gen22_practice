@@ -1,0 +1,39 @@
+body{
+  background: #333;
+}
+.box{
+  
+  background: #fff;
+  width: 300px;
+  height: 300px;
+  position: relative;
+  margin: auto;
+  top: 200px;
+  transition-property: background, border-radius, transform;
+  transition-duration: 1s, 3s;
+  transition-timing-function: ease-in;
+  /*background: #fff;
+  width: 200px;
+  height: 200px;
+  position: relative;
+  animation-name: wed;
+  animation-duration: 6s;
+  animation-iteration-count: infinite;
+  animation-delay: 1s;
+  animation-direction: alternate;
+  animation-fill-mode: forwards;
+}
+
+@keyframes wed{
+  0%{background-color: #fff; left: 0px; top: 0px; border-radius: 0% 0% 0% 0%;}
+  25%{background-color: #123; left: 300px; top: 0px; border-radius: 50% 0% 0% 0%;}
+  50%{background-color: #c017; left: 300px; top: 300px; border-radius: 50% 50% 0% 0%;}
+  75%{background-color: green; left: 0px; top: 300px; border-radius: 50% 50% 50% 0%;}
+  100%{background-color: #fff; left: 0px; top: 0px; border-radius: 50% 50% 50% 50%;}*/
+
+}
+.box:hover{
+  background: red;
+  border-radius: 50%;
+  transform: rotateY(180deg);
+}
